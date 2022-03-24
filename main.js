@@ -8,8 +8,8 @@ const addToList = () => {
     let entryP = document.createElement('p');
     entryP.appendChild(document.createTextNode(txtField));
     entryDiv.appendChild(entryP);
-    let entryButton = document.createElement('button')
-    entryButton.appendChild(document.createTextNode('-'));
+    let entryButton = document.createElement('i')
+    $(entryButton).addClass('fa-solid fa-x');
     entryDiv.appendChild(entryButton);
     list.appendChild(entryDiv);
     document.getElementById('text-field-input').value = ''

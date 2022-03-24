@@ -1,9 +1,6 @@
 body {
-    background-color: #caed9d;
-    background-image: url(/pencil-152713_1280.png);
-    background-size: 100px;
-    background-repeat: no-repeat;
-    background-position: 100%
+    background-color: #fcf29f;
+    font-family: 'Syne Mono', 'Courier New', Courier, monospace;
 }
 
 header {
@@ -23,17 +20,19 @@ header h1 {
 }
 
 #text-field-input {
-    width: 75%;
-    height: 20px;
+    width: 80%;
+    height: 30px;
     position: relative;
+    border: 2px solid #fcf29f;
+    border-radius: 5px;
     left: 13px;
     top: -5px;
 }
 
 #add {
     position: relative;
-    right: -15px;
-    top: -5px;
+    right: 18px;
+    top: -2px;
     height: 25px;
     width: 25px;
 }
@@ -63,4 +62,9 @@ header h1 {
     height: 20px;
     margin-top: 15px;
     margin-right: 21px;
+}
+
+i {
+    position: relative;
+    top: 12px;
 }
